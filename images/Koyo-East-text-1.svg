@@ -1,0 +1,260 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 1000" id="svg0">
+    <defs>
+        <g id="stairs">
+
+            <rect class="space" x="0" y="0" width="40" height="40" />
+            <!-- 上 右 下 左 -->
+            <line class="border-1" x1="0" x2="40" y1="0" y2="0" />
+            <line class="border-1" x1="40" x2="0" y1="100" y2="100" />
+            <line class="border-1" x1="0" x2="0" y1="100" y2="0" />
+
+            <g>
+                <rect class="border-1" x="0" y="40" width="40" height="15" />
+                <rect class="border-1" x="0" y="55" width="40" height="15" />
+                <rect class="border-1" x="0" y="70" width="40" height="15" />
+                <rect class="border-1" x="0" y="85" width="40" height="15" />
+            </g>
+        </g>
+        <g id="stairs-del">
+
+            <rect class="space" x="0" y="0" width="40" height="40" />
+            <!-- 上 右 下 左 -->
+            <line class="border-1" x1="40" x2="40" y1="0" y2="100" />
+            <line class="border-1" x1="40" x2="0" y1="100" y2="100" />
+            <line class="border-1" x1="0" x2="0" y1="100" y2="0" />
+
+            <g>
+                <rect class="border-1" x="0" y="40" width="40" height="15" />
+                <rect class="border-1" x="0" y="55" width="40" height="15" />
+                <rect class="border-1" x="0" y="70" width="40" height="15" />
+                <rect class="border-1" x="0" y="85" width="40" height="15" />
+            </g>
+        </g>
+    </defs>
+    <title>東校舎1F</title>
+    <rect class="border-2" x="0" y="0" width="1500" height="1000" />
+    <text x="1100" y="150" font-size="50">東校舎1F</text>
+    <g>
+        <rect class="space" x="150" y="50" width="50" height="800"></rect>
+        <rect class="space" x="200" y="750" width="800" height="50" />
+        <rect class="space" x="1000" y="550" width="250" height="400" />
+        <rect class="space" x="1000" y="50" width="50" height="500" />
+        <rect class="space" x="200" y="50" width="800" height="50" />
+        <rect class="space" x="200" y="400" width="800" height="50" />
+        <path class="space" d="M50 200 L150 250 L150 300 L50 250 Z" />
+        <!-- 上 右 下 左 -->
+        <line class="border-1" x1="150" x2="1050" y1="50" y2="50" />
+        <line class="border-1" x1="1050" x2="1050" y1="50" y2="400" />
+        <line class="border-1" x1="200" x2="150" y1="850" y2="850" />
+        <!-- ここから左 -->
+        <!-- 階段(下) -->
+        <line class="border-1" x1="150" x2="150" y1="800" y2="450" />
+        <!-- 階段(中) -->
+        <line class="border-1" x1="150" x2="150" y1="400" y2="300" />
+        <!-- 通路 -->
+        <line class="border-1" x1="150" x2="150" y1="250" y2="150" />
+        <!-- 階段(上) -->
+        <line class="border-1" x1="150" x2="150" y1="100" y2="50" />
+        <!-- ここまで左 -->
+        <g>
+            <!-- 左階段 -->
+            <use transform="matrix(1,0,0,1,0,0)" href="#stairs" x="110" y="100" />
+            <use transform="matrix(1,0,0,1,0,0)" href="#stairs" x="110" y="400" />
+            <use transform="matrix(1,0,0,1,0,0)" href="#stairs" x="110" y="800" />
+            <g>
+                <rect class="clear" x="200" y="100" width="800" height="300" />
+                <!-- 上 右 下 左 -->
+                <line class="border-1" x1="200" x2="960" y1="100" y2="100" />
+                <line class="border-1" x1="1000" x2="1000" y1="100" y2="400" />
+                <!-- ここから下 -->
+                <line class="border-1" x1="1000" x2="795" y1="400" y2="400" />
+                <line class="border-1" x1="745" x2="415" y1="400" y2="400" />
+                <line class="border-1" x1="365" x2="200" y1="400" y2="400" />
+                <!-- ここまで下 -->
+                <line class="border-1" x1="200" x2="200" y1="400" y2="100" />
+
+                <!-- 1-1 -->
+
+                <g>
+                    <a href="Grade_3.html">
+                        <rect class="border-1 room" x="200" y="100" width="190" height="100"></rect>
+                        <text class="roomN" x="295" y="155" width="190" height="100" text-anchor="middle">３年学年展示</text>
+                    </a>
+                    <a href="Grade_2.html">
+                        <rect class="border-1 room" x="390" y="100" width="190" height="100" />
+                        <text class="roomN" x="485" y="155" width="190" height="100" text-anchor="middle">２年学年展示</text>
+                    </a>
+                    <a href="Grade_1.html">
+                        <rect class="border-1 room" x="580" y="100" width="190" height="100" />
+                        <text class="roomN" x="675" y="155" width="190" height="100" text-anchor="middle">１年学年展示</text>
+                    </a>
+                    <a href="Grade_1.html">
+                        <rect class="border-1 room" x="770" y="100" width="190" height="100" />
+                        <text class="roomN" x="865" y="155" width="95" height="100" text-anchor="middle">１年学年展示</text>
+                    </a>
+                    <use transform="matrix(1,0,0,1,0,0)" href="#stairs-del" x="960" y="100" />
+                </g>
+                <!-- 1-way -->
+                <g>
+                    <line class="border-1" x1="50" x2="150" y1="200" y2="250" />
+                    <line class="border-1" x1="50" x2="150" y1="250" y2="300" />
+                </g>
+                <!-- 1-1.5(右側のトイレなど) -->
+                <rect class="border-1 room" x="960" y="200" width="40" height="40" />
+                <rect class="border-1 room" x="960" y="240" width="40" height="60" />
+                <rect class="border-1 room" x="960" y="300" width="40" height="60" />
+                <!-- 1-2 -->
+                <g>
+                    <rect class="space" x="365" y="300" width="50" height="100" />
+                    <rect class="space" x="745" y="300" width="50" height="100" />
+
+                    <rect class="border-1 room" x="210" y="300" width="155" height="80" />
+                    <line class="border-1" x1="210" y1="380" x2="365" y2="300" />
+                    <g>
+                        <line class="border-1" x1="365" y1="300" x2="365" y2="400" />
+                        <line class="border-1" x1="365" y1="300" x2="415" y2="300" />
+                        <line class="border-1" x1="415" y1="300" x2="415" y2="400" />
+                    </g>
+                    <rect class="border-1 room" x="415" y="300" width="155" height="80" />
+                    <line class="border-1" x1="415" y1="380" x2="570" y2="300" />
+                    <rect class="border-1 room" x="590" y="300" width="155" height="80" />
+                    <line class="border-1" x1="590" y1="380" x2="745" y2="300" />
+                    <g>
+                        <line class="border-1" x1="745" y1="300" x2="745" y2="400" />
+                        <line class="border-1" x1="745" y1="300" x2="795" y2="300" />
+                        <line class="border-1" x1="795" y1="300" x2="795" y2="400" />
+                    </g>
+                    <rect class="border-1 room" x="795" y="300" width="155" height="80" />
+                    <line class="border-1" x1="795" y1="380" x2="950" y2="300" />
+                </g>
+            </g>
+
+            <g>
+                <rect class="clear" x="200" y="450" width="800" height="300" />
+
+                <!-- 上 右 下 左 -->
+                <line class="border-1" x1="1000" x2="1000" y1="450" y2="750" />
+                <line class="border-1" x1="1000" x2="200" y1="750" y2="750" />
+                <line class="border-1" x1="200" x2="200" y1="750" y2="450" />
+
+                <!-- 2-1 -->
+                <g>
+                    <rect class="border-1 room" x="200" y="450" width="190" height="100" />
+                    <line class="border-1" x1="200" y1="550" x2="390" y2="450" />
+                    <rect class="border-1 room" x="390" y="450" width="190" height="100" />
+                    <line class="border-1" x1="390" y1="550" x2="580" y2="450" />
+                    <a href="Lounge.html">
+                        <rect class="border-1 room" x="580" y="450" width="95" height="100" />
+                        <text class="roomN" x="627.5" y="505" width="95" height="100" text-anchor="middle">休憩室</text>
+                    </a>
+                    <a href="Questionnaire.html">
+                        <rect class="border-1 room" x="675" y="450" width="95" height="100" />
+                        <text class="roomN" style="font-size: 15px;" x="722.5" y="505" width="95" height="100"
+                            text-anchor="middle">アンケート</text>
+                    </a>
+                    <a href="Stained_glass.html">
+                        <rect class="border-1 room" x="770" y="450" width="190" height="100" />
+                        <text class="roomN" x="865" y="505" width="95" height="100" text-anchor="middle">ステンドグラス</text>
+                    </a>
+                    <use transform="matrix(1,0,0,1,0,0)" href="#stairs-del" x="960" y="450" />
+                </g>
+                <!-- 2-2 -->
+                <g>
+                    <rect class="border-1 room" x="200" y="650" width="150" height="100" />
+                    <line class="border-1" x1="200" y1="750" x2="350" y2="650" />
+                    <rect class="border-1 room" x="350" y="650" width="150" height="100" />
+                    <line class="border-1" x1="350" y1="750" x2="500" y2="650" />
+                    <rect class="border-1 room" x="500" y="650" width="50" height="100" />
+                    <line class="border-1" x1="500" y1="750" x2="550" y2="650" />
+                    <rect class="border-1 room" x="550" y="650" width="50" height="100" />
+                    <line class="border-1" x1="550" y1="750" x2="600" y2="650" />
+                    <rect class="border-1 room" x="600" y="650" width="200" height="100" />
+                    <line class="border-1" x1="600" y1="750" x2="800" y2="650" />
+                    <rect class="border-1 room" x="800" y="650" width="66.6" height="100" />
+                    <line class="border-1" x1="800" y1="750" x2="866.6" y2="650" />
+                    <rect class="border-1 room" x="866.6" y="650" width="66.6" height="100" />
+                    <line class="border-1" x1="866.6" y1="750" x2="933.3" y2="650" />
+                    <rect class="border-1 room" x="933.3" y="650" width="66.6" height="100" />
+                    <line class="border-1" x1="933.3" y1="750" x2="1000" y2="650" />
+                </g>
+            </g>
+            <!-- 下 -->
+            <g>
+                <rect class="space" x="550" y="800" width="100" height="50" />
+                <rect class="border-1" x="500" y="850" width="200" height="75" />
+                <rect class="border-1 room" x="200" y="800" width="150" height="100" />
+                <line class="border-1" x1="200" x2="350" y1="900" y2="800" />
+                <rect class="border-1 room" x="350" y="800" width="200" height="100" />
+                <line class="border-1" x1="350" x2="550" y1="900" y2="800" />
+                <rect class="border-1 room" x="650" y="800" width="350" height="100" />
+                <line class="border-1" x1="650" x2="1000" y1="900" y2="800" />
+            </g>
+            <!-- 右 -->
+            <g>
+
+                <!-- 上 右 下 左 -->
+                <line class="border-1" x1="1050" x2="1350" y1="400" y2="400" />
+                <line class="border-1" x1="1400" x2="1400" y1="750" y2="950" />
+                <!-- ここから下 -->
+                <line class="border-1" x1="1400" x2="1100" y1="950" y2="950" />
+                <line class="border-1" x1="1050" x2="1000" y1="950" y2="950" />
+                <!-- ここまで下 -->
+                <line class="border-1" x1="1000" x2="1000" y1="950" y2="900" />
+
+                <rect class="border-1 room" x="1050" y="400" width="100" height="150" />
+                <line class="border-1" x1="1050" x2="1150" y1="550" y2="400" />
+                <a href="Seibutubu.html">
+                    <rect class="border-1 room" x="1150" y="400" width="200" height="150" />
+                    <text class="roomN" x="1250" y="480" width="200" height="150" text-anchor="middle">生物部</text>
+                </a>
+                <a href="Kagakubu.html">
+                    <rect class="border-1 room" x="1200" y="550" width="150" height="100" />
+                    <text class="roomN" x="1275" y="605" width="150" height="100" text-anchor="middle">化学部</text>
+                </a>
+                <rect class="border-1 room" x="1200" y="650" width="200" height="100" />
+                <line class="border-1" x1="1200" x2="1400" y1="750" y2="650" />
+                <a href="Kagakubu.html">
+                    <path class="border-1 room" d="M1250 750 L1250 800 L1200 800 L1200 950 L1400 950 L1400 750 Z" />
+                    <text class="roomN" x="1300" y="850" width="150" height="100" text-anchor="middle">化学部</text>
+                </a>
+                <!-- 右下(右上)凹み -->
+                <!--
+                <g>
+            </g>
+            -->
+                <use transform="matrix(1,0,0,1,0,0)" href="#stairs-del" x="1160" y="800" />
+                <rect class="border-1" x="1160" y="900" width="40" height="50" />
+            </g>
+        </g>
+        <g>
+            <circle cx="1025" cy="270" r="10" style="fill: #888;" />
+            <line style="stroke-width: 4px; stroke: #888;" x1="1025" x2="1200" y1="270" y2="200" />
+            <a href="Stained_glass.html">
+                <rect class="border-1 room" x="1200" y="175" width="200" height="50" />
+                <text class="roomN" x="1300" y="205" width="200" height="50" text-anchor="middle">ステンドグラス</text>
+            </a>
+            <circle cx="1020" cy="640" r="10" style="fill: #888;" />
+            <line style="stroke-width: 4px; stroke: #888;" x1="1020" x2="1200" y1="640" y2="250" />
+            <a href="Housou.html">
+                <rect class="border-1 room" x="1200" y="225" width="200" height="50" />
+                <text class="roomN" x="1300" y="255" width="200" height="50" text-anchor="middle">放送</text>
+            </a>
+            <circle cx="1100" cy="570" r="10" style="fill: #888;"/>
+            <line style="stroke-width: 4px; stroke: #888;" x1="1100" x2="1200" y1="570" y2="300" />
+            <a href="Mosaic.html">
+                <rect class="border-1 room" x="1200" y="275" width="200" height="50" />
+                <text class="roomN" x="1300" y="305" width="200" height="50" text-anchor="middle">モザイク</text>
+            </a>
+            <circle cx="1100" cy="700" r="10" style="fill: #888;" />
+            <line style="stroke-width: 4px; stroke: #888;" x1="1100" x2="1200" y1="700" y2="350" />
+            <a href="Hikari_monu.html">
+                <rect class="border-1 room" x="1200" y="325" width="200" height="50" />
+                <text class="roomN" x="1300" y="355" width="200" height="50" text-anchor="middle">モニュメント</text>
+            </a>
+            <a href="Uketuke.html">
+                <rect class="border-1 room" x="850" y="925" width="100" height="50" />
+                <text class="roomN" x="900" y="955" width="150" height="100" text-anchor="middle">受付</text>
+            </a>
+        </g>
+    </g>
+</svg>

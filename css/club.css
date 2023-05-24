@@ -1,0 +1,158 @@
+html {
+	height: 100%;
+	padding: 0;
+}
+@font-face {
+	font-family: 'Rafale';
+	src: url(../font/Rafale-BG.otf);
+}
+body {
+	height: 100%;
+	margin: unset;
+	font-family: Meryo;
+	letter-spacing: 2px;
+}
+/*ここから中身*/
+.Ctitle {
+	border-bottom: 5px solid rgb(255, 160, 00);
+	color: rgb(255, 160, 00);
+	font-family: Meryo UI;
+}
+.Fs {
+	color: rgb(255, 160, 00);
+}
+.Ptd {
+	border-bottom: 2px solid rgb(255, 160, 00);
+	margin-bottom: 2%;
+}
+.Pts {
+	display: block;
+	background-color: rgb(255, 184, 63);
+	color: white;
+	text-decoration: none;
+}
+.Ptss {
+	float: right;
+}
+footer {
+	background-color: rgb(255, 184, 63);
+	padding: 0.1vh 0;
+	display: table-cell;
+}
+.Ftitle {
+	font-size: 120px;
+	margin-left: 20%;
+}
+footer hr {
+	width: 99%;
+	height: 3px;
+	background-color: white;
+	border: 0;
+	margin: 1% auto 1%;
+}
+.Fmemo {
+	width: 95%;
+	margin: 0 auto;
+	font-family: Meryo UI;
+	font-family: Rafale;
+  	color: white;
+}
+.Fcont {
+   	float: right;
+    text-align: center;
+}
+@media (orientation: portrait){
+	/* 縦長 */
+	.Ctitle {
+		width: 99%;
+		font-size: 14vw;
+		line-height: 14vw;
+		margin: 0 auto 15% auto;
+		padding-top: 18%;
+	}
+	.Cts {
+		margin-left: 5%;
+	}
+	.Ccont {
+		width: 90%;
+		margin: 0 auto 5%;
+		font-size: 6vw;
+	}
+	.Fs {
+		font-size: 9vw;
+	}
+	.Ptitle {
+  		width: 90%;
+  		margin: 10% auto 10%;
+  		font-size: 6vw;
+  	}
+  	.Ptd {
+  		margin-bottom: 4%;
+  		font-size: 9vw;
+  		line-height: 9vw;
+  	}
+  	.Ptss {
+  		margin: 3vw 1vw 0 0;
+		width: 2vw;
+		height: 2vw;
+		border-right: 2px solid white;
+		border-top: 2px solid white;
+		transform: rotate(45deg);
+	}
+	.Pts {
+		box-shadow: 1px 1px 1px 1px rgb(255, 160, 00);
+	}
+  	.Fmemo {
+  	 	font-size: 5vw;
+  	}
+  	.Fcont {
+   		width: 100%;
+   	}
+}
+@media (orientation: landscape){
+  	/*横長*/
+  	.Ctitle {
+  		width: 85%;
+  		margin: 4% auto 5%;
+  		font-size: 10vw;
+		line-height: 10vw;
+  	}
+  	.Ccont {
+  		width: 82%;
+  		margin: 0 auto 0;
+  		font-size: 3vw;
+  	}
+  	.Fs {
+  		font-size: 6vw;
+  	}
+  	.Ptitle {
+  		width: 85%;
+  		margin: 3% auto 2%;
+  		font-size: 4vw;
+  	}
+  	.Ptd {
+  		font-size: 7vw;
+  		line-height: 7vw;
+  	}
+  	.Ptss {
+  		margin: 2vw 1vw 0 0;
+		width: 2vw;
+		height: 2vw;
+		border-right: 4px solid white;
+		border-top: 4px solid white;
+		transform: rotate(45deg);
+	}
+	.Pts {
+		box-shadow: 3px 3px 2px 2px rgb(255, 160, 00);
+	}
+  	.Fmemo {
+   		font-size: 2.9vw;
+   	}
+   	.Fcont {
+   		width: 50%;
+   		white-space: nowrap;
+   	}
+   	.Ptitles {
+   		margin-bottom: 5%;
+   	}
+}

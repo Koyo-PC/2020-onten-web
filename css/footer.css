@@ -1,0 +1,46 @@
+footer {
+	background-color: rgb(255, 184, 63);
+	padding: 0.1vh 0;
+	display: table;
+	width: 100%;
+}
+.Ftitle {
+	font-size: 120px;
+	margin-left: 20%;
+}
+footer hr {
+	width: 99%;
+	height: 3px;
+	background-color: white;
+	border: 0;
+	margin: 1% auto 1%;
+}
+.Fmemo {
+	width: 100%;
+	margin: 0 auto 0;
+	font-family: Meryo UI;
+	font-family: Rafale;
+  	color: white;
+}
+.Fcont {
+   	float: right;
+   	text-align: center;
+}
+@media (orientation: portrait){
+	.Fmemo {
+  	 	font-size: 5vw;
+  	}
+  	.Fcont {
+   		width: 100%;
+   		white-space: nowrap;
+   	}
+}
+@media (orientation: landscape){
+	.Fmemo {
+   		font-size: 2vw;
+   	}
+   	.Fcont {
+   		width: 50%;
+   		white-space: nowrap;
+   	}
+}

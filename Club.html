@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="robots" content="noindex" />
+	<script type="text/javascript" src="js/hamburger.min.js"></script>
+	<link rel="stylesheet" href="css/hamburger.css">
+	<link rel="stylesheet" href="css/footer.css">
+	<title>Club | 音展2020</title>
+</head>
+<body>
+<!-- ハンバーガーメニュー -->
+	<p id="btn">
+		<span id="bar"></span>
+		<span id="bar"></span>
+		<span id="bar"></span>
+	</p>
+	<div id="menu">
+		<ul>
+			<li><a href="Home.html">
+				<span class="msp1">Home</span>
+				<hr class="mhr">
+				<span class="msp2">ホーム</span>
+			</a></li>
+			<li><a href="Map.html">
+				<span class="msp1">Map</span>
+				<hr class="mhr">
+				<span class="msp2">地図</span>
+			</a></li>
+			<li style="background-color: white;"><a href="Club.html" style="color: rgb(255, 160, 00);">
+				<span class="msp1">Club</span>
+				<hr class="mhr" style="background-color: rgb(255, 160, 00);">
+				<span class="msp2">部活動</span>
+			</a></li>
+			<li><a href="Goods.html">
+				<span class="msp1">Goods</span>
+				<hr class="mhr">
+				<span class="msp2">グッズ</span>
+			</a></li>
+			<li><a href="Timetable.html">
+				<span class="msp1">Timetable</span>
+				<hr class="mhr">
+				<span class="msp2">タイムテーブル</span>
+			</a></li>
+			<li><a href="Exhibits.html">
+				<span class="msp1">Exhibits</span>
+				<hr class="mhr">
+				<span class="msp2">展示</span>
+			</a></li>
+			<li><a href="Welcome.html">
+				<span class="msp1">Welcome</span>
+				<hr class="mhr">
+				<span class="msp2">お知らせ</span>
+			</a></li>
+		</ul>
+	</div>
+
+	<div class="Ptitle">
+		<span>Club</span>
+	</div>
+	<div class="Ct">部活動</div>
+	<div class="Clinks">
+		<div class="Clinkn" style="background-color: rgb(255, 184, 63);"><a href="Ongakubu.html" class="ls" style="color: white;">音楽部</a></div>
+		<div class="Clinkn"><a href="Kagakubu.html" class="ls" style="color: rgb(255, 160, 0);">化学部</a></div>
+		<div class="Clinkcw"><a href="Gakuhou.html" class="ls">学報部</a></div>
+		<div class="Clinkco"><a href="Syakai1bu.html" class="ls">社会Ⅰ部</a></div>
+		<div class="Clinkn" style="background-color: rgb(255, 184, 63); color: white;"><a href="Syakai2bu.html" class="ls" style="color: white;">社会Ⅱ部</a></div>
+		<div class="Clinkn" style="color: rgb(255, 160, 0);"><a href="Syogi.html" class="ls" style="color: rgb(255, 160, 0);">将棋部</a></div>
+		<div class="Clinkcw"><a href="Seibutubu.html" class="ls">生物部</a></div>
+		<div class="Clinkco"><a href="Tenmonbu.html" class="ls">天文部</a></div>
+		<div class="Clinkn" style="background-color: rgb(255, 184, 63); color: white;"><a href="Buturibu.html" class="ls" style="color: white;">物理部</a></div>
+	</div>
+	<div class="Ct">同好会</div>
+	<div class="Clinks">
+		<div class="Clinkn" style="background-color: rgb(255, 184, 63);"><a href="Nijinotabi.html" class="ls" style="color: white;">ニジの旅</a></div>
+	</div>
+
+	<footer>
+		<hr noshade>
+		<div class="Fmemo">
+			<div class="Fcont">Concert & Exhibition 2020</div>
+			<div class="Fcont"> 甲陽学院中学校 音楽と展覧の会</div>
+			<div class="Fcont" style="text-align: right;">制作 パソコン企画</div>
+		</div>
+	</footer>
+	<style type="text/css">
+		html {
+			height: 100%;
+		}
+		@font-face {
+			font-family: 'Rafale';
+			src: url(font/Rafale-BG.otf);
+		}
+		body {
+			margin: unset;
+			font-family: Meryo;
+			letter-spacing: 2px;
+		}
+		/*ここから中身*/
+		.Ptitle {
+			border-bottom: 5px solid rgb(255, 160, 00);
+			color: rgb(255, 160, 00);
+			font-family: Rafale;
+		}
+		.Ct {
+			font-family: Meryo UI;
+			font-size: 7vmax;
+			line-height: 9vmax;
+			border-bottom: 3px solid rgb(255, 160, 00);
+			color: rgb(255, 160, 00);
+		}
+		.Clinks {
+			display: table;
+			box-shadow: 0 0 10px 3px rgb(255, 160, 00);
+		}
+		.Clinkco, .Clinkcw, .Clinkn  {
+			float: left;
+		}
+		.ls {
+			font-family: Rafale;
+			font-size: 4vmax;
+			margin-left: 2%;
+			text-decoration: none;
+			display: block;
+		}
+		@media (orientation: portrait){
+			/* 縦長 */
+			.Ptitle {
+				width: 99%;
+				font-size: 20vmin;
+				margin: 10% auto 25px auto;
+			}
+			.Clinks {
+				width: 99%;
+				margin: 5% auto 10% auto;
+			}
+			.Ct {
+				width: 99%;
+				margin: 10% auto 2% auto;
+			}
+	    	.Clinkco {
+	    		background-color: white;
+	    	}
+	    	.Clinkco > a {
+	    		color: rgb(255, 160, 00);
+	    	}
+	    	.Clinkcw {
+	    		background-color: rgb(255, 184, 63);
+	    	}
+	    	.Clinkcw > a {
+	    		color: white;
+	    	}
+	    	.Clinkco, .Clinkcw, .Clinkn  {
+	    		width: 100%;
+			}
+			.ls {
+				line-height: 6.5vh;
+			}
+  		}
+  		@media (orientation: landscape){
+  			/*横長*/
+  			.Ptitle {
+  				width: 85%;
+  				font-size: 14vw;
+  				line-height: 14vw;
+  				margin: 0 auto 25px auto;
+  			}
+  			.Clinks {
+				width: 85%;
+				margin: 3% auto 5% auto;
+			}
+			.Ct {
+				width: 85%;
+				margin: 5% auto 0 auto;
+			}
+  	  		.Clinkn {
+	    		width: 50%;
+	    	}
+	    	.Clinkco {
+	    		width: 50%;
+	    		background-color: rgb(255, 184, 63);
+	    	}
+	    	.Clinkco > a {
+	    		color: white;
+	    	}
+	    	.Clinkcw {
+	    		width: 50%;
+	    		background-color: white;
+	    	}
+	    	.Clinkcw > a {
+	    		color: rgb(255, 160, 00);
+	    	}
+	    	.ls {
+	    		line-height: 7vw;
+	    	}
+   		}
+	</style>
+</body>
+</html>

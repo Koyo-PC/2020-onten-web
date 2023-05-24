@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="1000" viewBox="0 0 1500 1000">
+    <defs>
+        <style>
+            .border-2 {
+                fill: #ffffff;
+                /*
+                stroke: #000000;
+                stroke-linecap: square;
+                stroke-width: 10;
+                */
+            }
+
+            .border-1 {
+                fill: #ffffff;
+                stroke: #000000;
+                stroke-linecap: square;
+                stroke-width: 2.5;
+            }
+
+            .border-white-1 {
+                fill: #ffffff;
+                stroke: #ffffff;
+                stroke-width: 5;
+            }
+
+            .border-white-2 {
+                fill: #ffffff;
+                stroke: #ffffff;
+                stroke-width: 12;
+            }
+        </style>
+        <g id="stairs">
+            <!-- 上 右 下 左 -->
+            <line class="border-1" x1="0" x2="40" y1="0" y2="0" />
+            <line class="border-1" x1="40" x2="0" y1="100" y2="100" />
+            <line class="border-1" x1="0" x2="0" y1="100" y2="0" />
+            <g>
+                <rect class="border-1" x="0" y="40" width="40" height="15" />
+                <rect class="border-1" x="0" y="55" width="40" height="15" />
+                <rect class="border-1" x="0" y="70" width="40" height="15" />
+                <rect class="border-1" x="0" y="85" width="40" height="15" />
+            </g>
+        </g>
+        <g id="stairs-del">
+            <!-- 上 右 下 左 -->
+            <line class="border-1" x1="40" x2="40" y1="0" y2="100" />
+            <line class="border-1" x1="40" x2="0" y1="100" y2="100" />
+            <line class="border-1" x1="0" x2="0" y1="100" y2="0" />
+
+            <g>
+                <rect class="border-1" x="0" y="40" width="40" height="15" />
+                <rect class="border-1" x="0" y="55" width="40" height="15" />
+                <rect class="border-1" x="0" y="70" width="40" height="15" />
+                <rect class="border-1" x="0" y="85" width="40" height="15" />
+            </g>
+        </g>
+    </defs>
+    <title>西校舎</title>
+    <rect class="border-2" x="0" y="0" width="1500" height="1000" />
+    <g>
+        <!-- 枠 -->
+        <g>
+            <line class="border-1" x1="900" x2="900" y1="150" y2="100" />
+            <line class="border-1" x1="900" x2="800" y1="100" y2="100" />
+            <use transform="rotate(90)" href="#stairs" x="60" y="-800" />
+            <line class="border-1" x1="700" x2="500" y1="100" y2="100" />
+        </g>
+        <g>
+            <!-- 北 -->
+            <rect class="border-1" x="500" y="100" width="50" height="150" />
+            <rect class="border-1" x="550" y="150" width="125" height="100" />
+            <rect class="border-1" x="675" y="150" width="75" height="100" />
+            <rect class="border-1" x="750" y="150" width="75" height="100" />
+            <rect class="border-1" x="825" y="150" width="75" height="100" />
+        </g>
+    </g>
+</svg>

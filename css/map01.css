@@ -1,0 +1,60 @@
+.border-2 {
+    fill: rgb(200, 200, 200);
+    stroke: initial;
+    stroke-linecap: initial;
+    stroke-width: initial;
+}
+
+.border-1 {
+    fill: #ffffff;
+    stroke: rgb(180, 180, 180);
+    stroke-linecap: square;
+    stroke-width: 4px;
+}
+
+
+/* 光庭など */
+
+.null {
+    fill: rgb(200, 200, 200);
+    stroke: rgb(180, 180, 180);
+    stroke-linecap: square;
+    stroke-width: 4px;
+}
+
+
+/* 道など */
+
+.space {
+    fill: #fffff4;
+}
+
+
+/* 部屋(教室など) */
+
+.room {
+    fill: rgb(230, 230, 230);
+}
+.roomN {
+    font-size: 20px;
+}
+
+/* 緑(中庭など) */
+
+.clear {
+    fill: rgb(200, 225, 200);
+    stroke: none;
+}
+
+
+/* プール */
+
+.pool {
+    fill: rgb(200, 225, 255);
+}
+
+text {
+    font-family: sans-serif;
+    display: initial;
+    fill: rgb(80, 80, 80);
+}
